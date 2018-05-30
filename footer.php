@@ -1,4 +1,5 @@
 <footer>
+	<div class="layer">
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-lg-3 col-md-6">
@@ -17,5 +18,6 @@
 				</address>
 			</div>
 		</div>
+	</div>
 	</div>
 </footer>

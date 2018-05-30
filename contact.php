@@ -1,12 +1,7 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="icon" type="image/png" href="favicon.png"/>
 <div id="loader-wrapper">
 			<div id="loader"></div>
 
@@ -20,22 +15,21 @@
 		include "head.php";
 	?>
 
-<body>
+<body class="body">
 
 	<?php
 		include "header.php";
 	?>
 
-<!-- inner page banner-->
-<div class="inner-banner">
-	
-</div>
-<!-- //inner page banner-->
 
 <!-- Contact page -->
-<section class="contact py-5 my-lg-5">
+<section class="contact">
+	<div class="py-3">
+		
+	</div>
+	<div class="layer">
 	<div class="container">
-		<h3 class="heading text-center text-capitalize mb-5">Contact Us</h3>
+		<h3 style="color:white;" class="heading text-center text-capitalize mb-5">Contact Us</h3>
 		<div class="row contact_information">
 			<div class="col-md-6 contact_left p-lg-5 p-4">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.2218329941516!2d121.16018071543579!3d14.586431689811542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8a9c40a6701%3A0x966115376a70369c!2sEvergreen+Executive+Village!5e0!3m2!1sen!2sph!4v1527146118638" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -44,7 +38,7 @@
 				<div class="contact_right p-lg-5 p-4">
 					<form action="connect.php" method="post">
 						<div class="w3_agileits_contact_left" style="padding: 10px;">
-							<h3 class="mb-3">Contact form</h3>
+							<h3 style="color:white;" class="mb-3">Contact form</h3>
 							<input type="text" name="name" placeholder="Your Name" required=""><br>
 							<input type="email" name="email" placeholder="Your Email" required=""><br>
 							<input type="text" name="phone" placeholder="Phone Number" required=""><br>
@@ -83,6 +77,7 @@
 				</div>
 		</div>
 	</div>
+</div>
 </section>
 <!-- //Contact page -->
 

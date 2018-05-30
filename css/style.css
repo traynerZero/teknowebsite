@@ -12,6 +12,17 @@ body{
     background-size: cover;
     overflow-x: hidden;
 }
+
+.body section{
+	margin-left: 6.022500060225em;
+	margin-right: 6.022500060225em;
+}
+
+.body footer{
+	margin-left: 6.022500060225em;
+	margin-right: 6.022500060225em;
+}
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -604,29 +615,30 @@ ul.portfolio-area li figure {
     outline: none;
     border: none;
     height: 435px;
+    color: white;
 }
 .information h4 {
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #333;
+    color: white;
     position: relative;
 }
 .information p {
     font-size: 17px;
     letter-spacing: 1px;
-    color: #222;
+    color: white;
     line-height: 28px;
 }
 .information p a,.information p span{
-    color: #0099E4;
+    color: white;
 }
 .information p a:hover{
-    color: #333;
+    color: white;
 }
 .information i.fas {
     font-size: 45px;
-    color: #0099E4;
+    color: white;
 }
 
 .contact_right,.contact_left{
@@ -1038,14 +1050,14 @@ footer h3{
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 2px;
-	color: #eee;
+	color: white;
 }
 footer {
-    background: #222;
+	background: rgba(0, 0, 0, 0.75);
 }
 footer p {
     font-size: 15px;
-    color: #999;
+    color: white;
     line-height: 28px;
     letter-spacing: 1px;
 }
@@ -1110,7 +1122,7 @@ address h4,address p strong {
 }
 address p {
     font-size: 15px;
-    color: #929292;
+    color: white;
 }
 address p a {
     color: #999;
@@ -1566,6 +1578,9 @@ ul.rating li span.fas {
 	.welcome_right {
 		
 	}
+	.slot-cnt .fx{
+	font-size: 32px;
+}
 }
 @media(max-width: 414px){
 	.portfolio-area li {
@@ -1615,6 +1630,9 @@ ul.rating li span.fas {
 		top: -5px;
 		bottom: 30px;
 	}
+	.slot-cnt .fx{
+	font-size: 32px;
+}
 }
 @media(max-width: 384px){
 	.portfolio-area li {
@@ -1671,6 +1689,9 @@ ul.rating li span.fas {
 	.serv_grid1 p {
 		font-size: 15px;
 	}
+	.slot-cnt .fx{
+	font-size: 32px;
+}
 }
 @media(max-width: 375px){
 	.portfolio-area li {
@@ -1698,6 +1719,9 @@ ul.rating li span.fas {
 	.welcome_right {
 		margin: 0 20px;
 	}
+	.slot-cnt .fx{
+	font-size: 29px;
+}
 }
 @media(max-width: 320px){
 	.portfolio-area li {
@@ -1729,6 +1753,10 @@ ul.rating li span.fas {
 		font-size: 20px;
 		letter-spacing: 1px;
 	}
+
+	.slot-cnt .fx{
+	font-size: 24px;
+}
 }
 @media(max-width: 1440px){
 	
@@ -1811,6 +1839,8 @@ ul.rating li span.fas {
 }
 
 .dis-1{
+	max-width: 100%;
+    height: auto;
     background-color: transparent;
     padding:20px;
     border-radius: 10px;
@@ -1838,7 +1868,9 @@ ul.rating li span.fas {
 }
 
 .dis-1 img{
-    border-radius: 90%;
+	max-width: 100%;
+    height: auto;
+    border-radius: 100%;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1871,8 +1903,6 @@ ul.rating li span.fas {
 .slot-cnt{
 	display: none;
 	position: absolute;
-	left: 23vh;
-	top: 15vh;
     transform: translate(-50%, -50%);
     text-align: center;
 

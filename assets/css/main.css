@@ -1795,10 +1795,31 @@
 	}
 
 /* Box */
+	.about-us{
+		margin: 9em; 
+		color:white;
+	}
+
+	.about-us p{
+		text-align: center;
+		color:white;
+		padding: 1em;
+		font-size: 16px;
+	}
+
+	.about-us h1{
+		text-align: center;
+		color:white;
+		font-size: 58px;	
+	}
+
+	.about-us h2{
+		text-align: center;
+		color:white;
+	}
 
 	.box {
 		margin-bottom: 2rem;
-		background: #FFF;
 	}
 
 		.box .content {

@@ -1,3 +1,4 @@
+<link rel="icon" type="image/png" href="favicon.png"/>
 <div id="loader-wrapper">
 			<div id="loader"></div>
 
@@ -11,28 +12,21 @@
 		include "head.php";
 	?>
 
-<body>
+<body class="body">
 	<?php
 		include "header.php";
 	?>
-<!-- inner page banner-->
-<div class="inner-banner">
-	
-</div>
-<!-- //inner page banner-->
-
-<!-- Welcome -->
-<section class="welcome" style="background-color: white;">
-		<div class="row welcome_grids">
-			<div class="col-lg-6 ml-2 div-2">
-				<h3 style="margin-left: 0.2em;" class="text-capitalize" >Tekno Logika Pilipinas Inc.</h3>
-				<p style="margin-left: 1em;" class="mb-5 mt-4"> Tekno Logika Pilipinas Inc. envisions a future Philippines with the most advanced Parking System in the world by integrating Industrial Automation, Information Technology, RFID Cards, Cloud-based Servers and Mobile Apps.</p>
-			</div>
-			<div style="margin-left: -0.5em;" class="col-lg-6 welcome_right div-2">
-			</div>
+<section class="welcome_bottom">
+	<div class="layer py-5">
+		<div class="container py-lg-5">
+			<h1 style="margin-left: 0.2em; font-color:white; font-size: 5em; text-align: center;" class="text-capitalize" >Tekno Logika Pilipinas Inc.</h1>
+				<p style="margin-left: 1em; text-align: center;" class="mb-5 mt-4"> Tekno Logika Pilipinas Inc. envisions a future Philippines with the most advanced Parking System in the world by integrating Industrial Automation, Information Technology, RFID Cards, Cloud-based Servers and Mobile Apps.</p>
+				</div>
 		</div>
+	</div>
 </section>
-<!-- //Welcome -->
+
+<!-- //inner page banner-->
 
 <!-- welcome bottom -->
 <section class="welcome_bottom">
@@ -85,9 +79,8 @@
 	</div>
 </section>
 <!-- //welcome bottom -->
-
 <!-- services -->
-<section id="services" class="services py-5 my-lg-5">
+<section id="services" class="services py-5">
 	<div class="container">
 		<h3 class="heading text-center text-capitalize mb-5">What can we do for you</h3>
 		<div class="row service_grids">

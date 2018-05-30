@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<link rel="icon" type="image/png" href="/favicon.png"/>
 
 		<!-- Scripts -->
@@ -22,6 +23,8 @@
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 	<script src="js/main.js"></script>
 
+
+	<body>
 			<div id="loader-wrapper">
 			<div id="loader"></div>
 
@@ -34,24 +37,24 @@
 <?php
 		include "header.php";
 	?>
-			<section id="one" class="wrapper style2 parallax">
-				<div class="inner">
+			<section id="one" class="about-us">
+
+			<div class="layer">
 						<div class="box">
 							<div class="image fit">
-								<img src="images1/pic01.jpg" alt="" />
 							</div>
 							<div class="content">
 								<header class="align-center">
-									<h2>Tekno Logika Pilipinas Inc.</h2>
-									<p>About Us</p>
+									<h1>Tekno Logika Pilipinas Inc.</h1>
+									<h2>About Us</h2>
 								</header>
-								<hr />
 								<p> Tekno Logika Pilipinas Inc. envisions a future Philippines with the most advanced Parking System in the world by integrating Industrial Automation, Information Technology, RFID Cards, Cloud-based Servers and Mobile Apps.</p>
-								<p>We also want parking operators to be able to maximize their profits by minimizing manpower utilization, improve Parking Audit capabilities and be able to easily maintain and manage their systems.</p>
-								<p>The founders of Tekno Logika were formers employees and founders of Mitech.  Mitech was founded in 1989 with the purpose of developing products that will showcase the ingenuity and capability of Filipino engineers.</p>
+								<p>We also want parking operators to be able to maximize their profits by minimizing manpower utilization, improve Parking Audit capabilities and be able to easily maintain and manage their systems. The founders of Tekno Logika were formers employees and founders of Mitech.  Mitech was founded in 1989 with the purpose of developing products that will showcase the ingenuity and capability of Filipino engineers.</p>
 								<p>Among their achievements are the 1st Filipino made Building Automation System, 1st Automated Parking Management System and the 1st Automated Attendance Monitoring System (Logbox).  Unfortunately, Mitech was not able to sustain its technological lead in the Internet Age and was eventually closed in 2008.  With Parking Experience of Mitech, Tekno Logika has more than twenty years of Parking Management and Parking Automation experience.</p>
+								
 							</div>
 						</div>
 				</div>
 			</section>
 		</div>
+		</body>
