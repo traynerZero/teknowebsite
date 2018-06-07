@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-	
+	var v_trig = false;
 	setTimeout(function(){
 		$('#service-content').addClass('fade-in');
 		$('body').addClass('loaded');
@@ -91,9 +91,9 @@ $(document).ready(function() {
 			$('#tc_desc').show('blind');
 			$('#tc_mdesc').show('blind');
 	});
-
+	
 	$('#v_more').on('click',function(){
-
+			v_trig = true;
 			$('#services').hide('blind');
 			$('#v_more').hide('blind');
 			$('#v_less').show('blind');
@@ -101,6 +101,7 @@ $(document).ready(function() {
 	});
 
 	$('#v_less').on('click',function(){
+			v_trig = false;
 			$('#services').show('blind');
 			$('#v_more').show('blind');
 			$('#v_less').hide('blind');
@@ -121,6 +122,19 @@ $('.close').on('click',function(){
 	$('#header').show('fade');
 
 });
+
+
+$(window).scroll(function(){
+    $(".fade-scroll-1").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+
+$(window).scroll(function(){
+    $(".fade-scroll-2").css("opacity", 1 - $(window).scrollTop() / 750);
+  });
+
+$(window).scroll(function(){
+    $(".fade-scroll-3").css("opacity", 1 - $(window).scrollTop() / 850);
+  });
 
 
 });

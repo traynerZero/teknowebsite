@@ -42,3 +42,15 @@
 	<script src="js/main.js"></script>
 	<!-- //web-fonts -->
 	</head>
+	<?php
+	session_start();
+	$session = 0;
+	if(isset($_SESSION['session'])){
+		$session = $_SESSION['session'];
+	}
+	
+	if($session != 1){
+		echo "<script>alert('Login First!');</script>";
+		header("Location:login/index.php");
+	}
+		?>

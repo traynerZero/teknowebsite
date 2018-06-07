@@ -18,7 +18,7 @@
 	?>
 <section class="welcome_bottom">
 	<div class="layer py-5">
-		<div class="container py-lg-5">
+		<div class="container py-lg-5  fade-scroll-1">
 			<h1 style="margin-left: 0.2em; font-color:white; font-size: 5em; text-align: center;" class="text-capitalize" >Tekno Logika Pilipinas Inc.</h1>
 				<p style="margin-left: 1em; text-align: center;" class="mb-5 mt-4"> Tekno Logika Pilipinas Inc. envisions a future Philippines with the most advanced Parking System in the world by integrating Industrial Automation, Information Technology, RFID Cards, Cloud-based Servers and Mobile Apps.</p>
 				</div>
@@ -34,17 +34,17 @@
 		<div class="container py-lg-5">
 			<div class="row bottom_grids">
 				<div class="col-lg-6 col-md-8">
-					<h4 class="head text-uppercase"><i class="fas mb-4 fa-gear fa-spin"></i> &nbsp;Fully Automated Parking</h4>
-					<p class="my-4">We dare to dream of a cashier-less and cashless parking payment in the Philippines in the near future.</p>
+					<h4 class="head text-uppercase fade-scroll-2"><i class="fas mb-4 fa-gear fa-spin"></i> &nbsp;Fully Automated Parking</h4>
+					<p class="my-4 fade-scroll-2">We dare to dream of a cashier-less and cashless parking payment in the Philippines in the near future.</p>
 					
 
-					<div class="more_desc_serv" style="display: none;">
+					<div class="more_desc_serv fade-scroll-4" style="display: none;">
 					<h4>iPark</h4>
 						
 						<p class="mt-4 mb-5">Although we want a fully-automated parking system, some promo and discounts like Senior Citizen Discount still needs a cashier. This could be used as a centralized cashier for a parking facility.</p>
 						
 						<div class="col-lg-5">
-							<img class="img-zoom" src="images/Picture7.jpg" style="height: 15em; width: 30em;">
+							<img class="img-zoom img-serv" src="images/Picture7.jpg">
 						</div>
 						
 						<p class="mt-4 mb-5"></p>
@@ -54,16 +54,16 @@
 					
 				</div>
 
-				<div class="col-lg-6 col-md-8 more_desc_serv" style="display: none; margin-top:20%;">
+				<div class="col-lg-6 col-md-8 more_desc_serv fade-scroll-4" style="display: none; margin-top:20%;">
 
 						<div class="col-lg-5">
-							<img class="img-zoom" src="images/Picture1.png" style="height: 15em; width: 40em;" alt="">
+							<img class="img-zoom img-serv" src="images/Picture1.png"alt="">
 						</div>
 
 						<p class="mt-4 mb-5">We want parkers to have the convenience of knowing where there are available parking slots and even be able to make advanced reservations hours before they even arrive at the Parking Area instead of waiting a long time for a Parking Slot to become available.</p>
 
 						<div class="col-lg-5">
-							<img class="img-zoom" src="images/Picture3.png" style="height: 15em; width: 30em;">
+							<img class="img-zoom img-serv" src="images/Picture3.png">
 						</div>
 
 						<p class="mt-4 mb-5">Stand alone device for counting the cars going in and out of the parking lot. Base on this number, the count of the parking slots available is computed, displayed on the LED screen.</p>
@@ -73,7 +73,7 @@
 
 				
 			</div>
-				<button id="v_more" class="button alternate">View More</button>
+				<button id="v_more" class="button alternate fade-scroll-3">View More</button>
 				<button id="v_less" class="button alternate" style="display: none;">View Less</button>
 		</div>
 	</div>
@@ -82,7 +82,7 @@
 <!-- services -->
 <section id="services" class="services py-5">
 	<div class="container">
-		<h3 class="heading text-center text-capitalize mb-5">What can we do for you</h3>
+		<h3 class="heading text-center text-capitalize mb-5 fade-scroll-3-bt">What can we do for you</h3>
 		<div class="row service_grids">
 			<div id="a32" class="col-lg-4 col-md-6 mb-md-0 mb-3 text-center">
 				<div class="serv_grid1 slide-in">
@@ -93,7 +93,7 @@
 			</div>
 
 			<div id="a32_disp" class="col-lg-4 col-md-6 text-center cursor" style="display: none;">
-				<div class="row serv_grid1 slide-right" style="width:320%;">
+				<div class="row serv_grid1 slide-right card_m">
 					<div class="col-lg-5">
 					<i class="fas mb-4 fa-cloud"></i>
 					<h4 class="text-uppercase">Centralized Parking System</h4>
@@ -101,7 +101,7 @@
 					<p>Although we want a fully-automated parking system, some promo and discounts like Senior Citizen Discount still needs a cashier. This could be used as a centralized cashier for a parking facility.</p>
 					</div>
 					<div class="col-lg-5 welcome">
-							<img src="images/Picture1.png" alt="" style="height: 15em; width: 50em;" class="img-fluid">
+							<img src="images/Picture1.png" alt="" class="img-car">
 						</div>
 			
 				</div>
@@ -118,15 +118,15 @@
 			</div>
 
 			<div id="b32_disp" class="col-lg-4 col-md-6 text-center cursor" style="display: none;">
-				<div class="row serv_grid1 slide-right" style="width:320%;">
+				<div class="row serv_grid1 slide-right card_m">
 					<div class="col-lg-5">
-					<i class="fas mb-4 fa-mobile-alt"></i>
-					<h4 class="text-uppercase">Mobile Apps</h4>
+					<i style="font-size: 2em;" class="fas mb-4 fa-mobile-alt"></i>
+					<h4 class="text-uppercase" style="font-size: 3em;">Mobile Apps</h4>
 					<p class="mt-4 mb-5">iPark – Is for ‘INTELLIGENT PARKING’</p>
 					<p>We dare to dream of a cashier-less and cashless parking payment in the Philippines in the near future.</p>
 					</div>
 					<div class="col-lg-5 welcome">
-							<img src="images/ipark2.png" alt="" style="height: 30em; width: 14em;" class="img-fluid">
+							<img src="images/ipark2.png" alt="" style="height: 30em; width: auto;" class="img-fluid">
 						</div>
 			
 				</div>
@@ -142,7 +142,7 @@
 			</div>
 
 			<div id="c32_disp" class="col-lg-4 col-md-6 text-center cursor" style="display: none;">
-				<div class="serv_grid1 slide-right" style="width:320%;">
+				<div class="serv_grid1 slide-right card_m">
 					<i class="fas mb-4 fa-cloud"></i>
 					<h4 class="text-uppercase">Cloud Based System</h4>
 					<p class="mt-4 mb-5">COMING SOON!</p>

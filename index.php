@@ -6,7 +6,7 @@
 -->
 <html>
 	<?php
-		include "head.php";
+	include "head.php";
 	?>
 	<body>
 		

@@ -4,6 +4,7 @@
 }
 
 body{
+	max-width: 100%;
 	position:relative;
 	background: url(../images/banner2.jpg) no-repeat 0px 0px;
 	background-attachment: fixed;
@@ -11,6 +12,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+}
+
+.sec-1{
+	height: 100vh;
 }
 
 .body section{
@@ -856,7 +861,6 @@ ul.portfolio-area li figure {
     color: #333 !important;
 }
 .serv_grid1 {
-    
     padding: 2em;
     padding-bottom: 3em;
     background: transparent;
@@ -865,6 +869,9 @@ ul.portfolio-area li figure {
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 	-o-transition: 0.5s all;
+}
+.card_m{
+	width:320%;
 }
 .serv_grid1:hover {
     background: #0099E4;
@@ -1056,7 +1063,7 @@ footer {
 	background: rgba(0, 0, 0, 0.75);
 }
 footer p {
-    font-size: 15px;
+    font-size: 10px;
     color: white;
     line-height: 28px;
     letter-spacing: 1px;
@@ -1067,7 +1074,7 @@ footer .posts p.middle {
 }
 footer p span {
 	display: block;
-    font-size: 15px;
+    font-size: 8px;
 }
 .links a{
 	display:block;
@@ -1114,14 +1121,14 @@ button.btn1 {
     width: 15%;
 }
 address h4,address p strong {
-    font-size: 18px;
+    font-size: 15px;
     color: #bbb;
     letter-spacing: 1px;
     font-weight: 600;
 	text-decoration: underline;
 }
 address p {
-    font-size: 15px;
+    font-size: 14px;
     color: white;
 }
 address p a {
@@ -1212,11 +1219,18 @@ ul.rating li span.fas {
 
 
 /*-- Responsive Design --*/
+.h1-title{
+		font-size: 5em;
+	}
 
 @media(max-width: 1440px){
 	.portfolio-area li {
 		width: 258px;
 	}
+	.h1-title{
+		font-size: 5em;
+	}
+
 }
 @media(max-width: 1366px){
 	.portfolio-area li {
@@ -1535,8 +1549,18 @@ ul.rating li span.fas {
 	.typo_grids h2 {
 		font-size: 25px;
 	}	
+	.body section{
+		margin-left: 0.022500060225em;
+	margin-right: 0.022500060225em;
+	}
+	.body footer{
+		margin-left: 0.022500060225em;
+	margin-right: 0.022500060225em;
+	}
 }
 @media(max-width: 480px){
+	
+
 	.portfolio-area li {
 		width: 132px;
 	}
@@ -1581,6 +1605,14 @@ ul.rating li span.fas {
 	.slot-cnt .fx{
 	font-size: 32px;
 }
+.body section{
+		margin-left: 0.022500060225em;
+	margin-right: 0.022500060225em;
+	}
+	.body footer{
+		margin-left: 0.022500060225em;
+	margin-right: 0.022500060225em;
+	}
 }
 @media(max-width: 414px){
 	.portfolio-area li {
@@ -1633,8 +1665,11 @@ ul.rating li span.fas {
 	.slot-cnt .fx{
 	font-size: 32px;
 }
+
+
 }
 @media(max-width: 384px){
+	
 	.portfolio-area li {
 		width: 157px;
 	}
@@ -1723,6 +1758,11 @@ ul.rating li span.fas {
 	font-size: 29px;
 }
 }
+@media(max-width: 360px){
+  .h1-title{
+  	font-size: 32px;
+  }
+}
 @media(max-width: 320px){
 	.portfolio-area li {
 		width: 125px;
@@ -1753,13 +1793,54 @@ ul.rating li span.fas {
 		font-size: 20px;
 		letter-spacing: 1px;
 	}
+	
 
 	.slot-cnt .fx{
 	font-size: 24px;
 }
 }
+
+@media(max-width: 990px){
+	.tech1_d{
+		display: block;
+	}
+	.tech1{
+		display: none;
+	}
+
+	.img-serv{
+		width: 10em;
+	}
+	.body section{
+		margin-left: 0.022500060225em;
+	margin-right: 0.022500060225em;
+	}
+	.body footer{
+		margin-left: 0.022500060225em;
+	margin-right: 0.022500060225em;
+	}
+
+	.card_m{
+    width: 100%;
+  }
+  .card_m img{
+  	height: 30%;
+  	width: 100%;
+  	margin-left: 0;
+  }
+}
+
+@media(min-width: 991px){
+	.tech1_d{
+		display: none;
+	}
+}
+
 @media(max-width: 1440px){
 	
+	.dis-1{
+		max-width: 100%;
+	}
 }
 @media(max-width: 1440px){
 	
@@ -1839,11 +1920,9 @@ ul.rating li span.fas {
 }
 
 .dis-1{
-	max-width: 100%;
     height: auto;
     background-color: transparent;
     padding:20px;
-    border-radius: 10px;
     transition: 1s all;
     -webkit-transition: 1s all;
     -moz-transition: 1s all;
@@ -1868,9 +1947,8 @@ ul.rating li span.fas {
 }
 
 .dis-1 img{
-	max-width: 100%;
     height: auto;
-    border-radius: 100%;
+    border-radius: 20%;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1879,7 +1957,7 @@ ul.rating li span.fas {
 }
 
 .dis-1:hover img{
-    border-radius: 20%;
+    border-radius: 0;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1910,4 +1988,22 @@ ul.rating li span.fas {
 
 .slot-cnt .fx{
 	font-size: 128px;
+}
+
+.h1-title{
+	margin-left: 0.2em;
+	font-color:white;
+	text-align: center;
+}
+
+.img-serv{
+	height: auto; 
+	width: 25em;
+}
+
+.img-car{
+	height: 20em; 
+	width: 30em;
+	margin-left: 20%;
+	margin-top: 20%;
 }

@@ -3738,7 +3738,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images1/banner.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -4260,7 +4260,7 @@
 
 		.parallax { 
     /* The image used */
-    background-image: url("../../images1/pic011.jpg");
+    background-image: url("../../images/pic011.jpg");
 
     /* Set a specific height */
     height: 100%; 
