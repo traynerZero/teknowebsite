@@ -105,9 +105,6 @@
       <div id="tc_mdesc" style="display: none;">
 
 <br>
- 
-
-
   <div class="container">
     <h3 class="text-capitalize mb-5">JOIN US!</h3>
     <a href="contact.php" style="height: 50px; width: 200px; font-size: 20px;"><i class="fas fa-envelope-open"></i> APPLY NOW!</a>
@@ -122,6 +119,13 @@
     </div>
 	</div>
 </div>
+</section>
+
+
+<section class="project py-5 text-center layer">
+  <div class="container">
+    
+  </div>
 </section>
 
 	<?php

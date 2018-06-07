@@ -1125,7 +1125,6 @@ address h4,address p strong {
     color: #bbb;
     letter-spacing: 1px;
     font-weight: 600;
-	text-decoration: underline;
 }
 address p {
     font-size: 14px;
@@ -1137,26 +1136,12 @@ address p a {
 address p a:hover {
     color: #fff;
 }
-.copyright p {
-    letter-spacing: 1px;
-    font-size: 15px;
-    color: #999;
-}
-.copyright p a {
-    color: #eee;
-}
-.copyright p a:hover {
-    color: #0099E4;
-}
-.copyright {
-    background: #1b1b1b;
-}
 .social li {
     display: inline-block;
 }
 .social li a {
     color: #999;
-    font-size: 15px;
+    font-size: 30px;
 }
 .social li a:hover {
     color: #fff;
